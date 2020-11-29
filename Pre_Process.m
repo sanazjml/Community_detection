@@ -1,4 +1,4 @@
-%% Set some necessary parameters (Necessary!)
+%%% Set some necessary parameters (Necessary!)
 
 chromosomes='chromosomes.txt';
 hg='dixon_2M_10000_abs.bed';
@@ -11,18 +11,18 @@ self = 1;
 debug = 1;
 verbose = 1;
 
-%% Background color of plots
+%%% Background color of plots
 Back_color = 'Black';            % Change it to your favorite background color of plots 
                                  % by simply writing its name
 
-%% Annotating setting
+%%% Annotating setting
 Annotating = 'off';              % Turn annotating 'on' or 'off' as you prefer
 
-%% Setting of Communities plots  
+%%% Setting of Communities plots  
 
 Chr_number = 22;  % Please select your desired Chr to plot its graphs
 
-% You can change elements of below cell array to get your desired graphs
+%%% You can change elements of below cell array to get your desired graphs
 Comm_Plot = {'Top N largest Communities'};                     %set 'Whole Chromosome' in this part in order to 
                                                          %have a plot for whole Chromosome 
 
