@@ -1,9 +1,11 @@
 ## Community detection of Hi-C interaction data, community visualization and annotation
 
-This repository includes implementation of Louvain community detection algorithm [https://github.com/GenLouvain/GenLouvain] for Hi-C data, and community visualization through modified FRKK (Fruchterman-Reingold, Kamada-Kawai) algorithm presented by Amanda et al. [https://github.com/olvb/nodesoup].
+This repository includes implementation of Louvain community detection algorithm [https://github.com/GenLouvain/GenLouvain] for Hi-C data, and community
+
+visualization through modified FRKK (Fruchterman-Reingold, Kamada-Kawai) algorithm presented by Amanda et al. [https://github.com/olvb/nodesoup].
 
 
-### Pre_Process.m file  
+### Pre_Process.m  
 
 
 1. Input Parameters should be set in Pre-Process.m file.   
@@ -53,7 +55,7 @@ This repository includes implementation of Louvain community detection algorithm
 5. Also a correspondence between chromosome number, its detected communities and fragments of genome which it encompasses will be provided as txt format file in "Output_txt_files" folder.
   
 
- ### GWAS-Annotation.m file  
+ #### GWAS-Annotation.m   
 
 1. You should insert the name of your desired diseases in "Disease={}". The GWAS data sets of our studied diseases  
 
