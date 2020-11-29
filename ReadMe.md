@@ -65,6 +65,8 @@ This repository includes implementation of Louvain community detection algorithm
 4. "Plotting" and "Saving" folders contain m.files related to plot and save the visualizations. You will be able   
 
     to have saved graphs in different formats in "Output_figs" folder.      
+    
+    ![alt text](https://github.com/sanazjml/Community_detection/blob/master/graph%20of%205%20Mb%20base%20pair%20Hi-C%20data.png)
 
 5. Also a correspondence between chromosome number, its detected communities and fragments of genome   
   
