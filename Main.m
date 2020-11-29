@@ -1,4 +1,4 @@
-%% Initialization
+%%% Initialization
 clear; close all; clc;
 
 Pre_Process;
@@ -13,13 +13,13 @@ addpath('./Plotting')
 
 addpath('./Saving')
 
-% Read chromosomes.txt file and produce a chrom_box array
+%%% Read chromosomes.txt file and produce a chrom_box array
 read_chrom;
 
-% Chromosome to community correspondence
+%%% Chromosome to community correspondence
 chr_to_com;
 
-%% Community detection for each chromosome
+%%% Community detection for each chromosome
 input_names = cell(1,25);
 for i = 1:25
     
@@ -28,7 +28,7 @@ for i = 1:25
  
    [A, ind_frag, min_num] = read_chr_vs_chr(input_names{i}, i);
 
-   % Implement Louvain algorithm
+   %%% Implement Louvain algorithm 
    tic
    fprintf('Louvain algorithm is started for chromosome %d, please wait.\n\n ', i);
    [COMTY,ending] = cluster_jl(A,s,self,debug,verbose);
@@ -56,7 +56,7 @@ for i = 1:25
    
 end
 
-%% Community Visulaization 
+%%% Community Visulaization 
 Chr_name = strcat('Results (chr',num2str(Chr_number),...
            ' vs chr',num2str(Chr_number), ' BinSize=10000).csv');
        
