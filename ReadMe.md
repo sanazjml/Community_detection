@@ -4,7 +4,7 @@ This repository includes implementation of Louvain community detection algorithm
 (Fruchterman-Reingold, Kamada-Kawai) algorithm presented by Amanda et al. [https://github.com/olvb/nodesoup]    
 
 
-Pre_Process.m file  
+### Pre_Process.m file  
 
 
 1. Input Parameters should be set in Pre-Process.m file.   
@@ -48,7 +48,7 @@ Pre_Process.m file
    further investigation.   
 
 
-Main.m   
+### Main.m   
     
 1. You can run Main.m file without any changes if you are working on all chromosomes (you have the significant   
 
@@ -71,7 +71,7 @@ Main.m
    which it encompasses will be provided as txt format file in "Output_txt_files" folder.
   
 
- #GWAS-Annotation.m file  
+ ### GWAS-Annotation.m file  
 
 1. You should insert the name of your desired diseases in "Disease={}". The GWAS data sets of our studied diseases  
 
