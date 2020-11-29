@@ -64,7 +64,7 @@ This repository includes implementation of Louvain community detection algorithm
 
 4. "Plotting" and "Saving" folders contain m.files related to plot and save the visualizations. You will be able   
 
-    to have saved graphs in different formats in "Output_figs" folder.  
+    to have saved graphs in different formats in "Output_figs" folder.      
 
 5. Also a correspondence between chromosome number, its detected communities and fragments of genome   
   
