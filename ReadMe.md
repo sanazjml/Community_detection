@@ -1,4 +1,4 @@
-## Community detection of Hi-C data, Visualization and annotation code  
+## Community detection of Hi-C interaction data, community visualization and annotation
 
 This repository includes implementation of Louvain community detection algorithm [https://github.com/GenLouvain/GenLouvain] for Hi-C data, and community visualization through modified FRKK
 (Fruchterman-Reingold, Kamada-Kawai) algorithm presented by Amanda et al. [https://github.com/olvb/nodesoup]    
